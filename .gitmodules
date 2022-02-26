@@ -1,6 +1,6 @@
 [submodule "validation-backend"]
       path = validation-backend
-      url = git@github.com:vstu-mini-project/validation-backend.git
+      url = https://github.com/vstu-mini-project/validation-backend.git
 [submodule "validation-frontend"]
       path = validation-frontend
-      url = git@github.com:vstu-mini-project/validation-frontend.git
+      url = https://github.com/vstu-mini-project/validation-frontend.git
