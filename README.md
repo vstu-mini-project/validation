@@ -15,11 +15,12 @@
 git submodule init
 git submodule update
 ```
+5. В зависимости от задач перейти к следующему пункту.
 ## Запуск для тестирования
 1. Установить провайдер контейнеров [Docker](https://www.docker.com/)
 2. Открыть директорию с проектом через терминал и выполнить команду
 `docker-compose up -d --build`
-3. Адреса сервисов
+3. После выполнения команды и загрузки всех модулей (флаги done), проверить адреса.
    1. React: `localhost:3000`
    2. Postgres: `localhost:5432`
    3. SpringBoot `localhost:8080/api`
