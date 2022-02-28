@@ -24,7 +24,7 @@ git submodule update
 3. После выполнения команды и загрузки всех модулей (флаги done), проверить адреса в браузере.
    1. React: `localhost:3000`
    2. Postgres: `localhost:5432` - пока нет интерфейса
-   3. SpringBoot `localhost:8080/api`
+   3. SpringBoot `localhost:8080/api` - корень api, чтобы увидеть данные нужно указать репозиторий, например, `localhost:8080/api`
 4. Чтобы остановить все контейнеры `docker-compose down` или через интерфейс Docker Desktop.
 ## Запуск для разработки
 1. Установить провайдер контейнеров [Docker](https://www.docker.com/)
