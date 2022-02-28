@@ -11,7 +11,7 @@
 1. Установить [Git](https://git-scm.com/).
 2. Открыть директорию в которую вы хотите загрузить папку с проектом через терминал (правой кнопкой -> GIT Bash Here).
 3. Выполнить команду `git clone https://github.com/vstu-mini-project/validation.git`. Это создаст папку validation в этой директории.
-4. Открыть папку с проектом через `cd ./validation` и выполнить команды по очереди
+4. Открыть папку с проектом командой `cd ./validation` и выполнить команды по очереди
 ```
 git submodule init
 git submodule update
